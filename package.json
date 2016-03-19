@@ -1,17 +1,26 @@
 {
-  "version": "1.0.0",
+  "name": "spotit-auth-lib",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "crypto-js": "~3.1.6",
+    "passport": "~0.3.2",
+    "passport-hash": "~0.4.0",
+    "passport-http-bearer": "~1.0.1",
+    "restify": "~4.0.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolae-teodor-pavel/auth-lib.git"
+  },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "crypto-js": "^3.1.5",
-    "passport": "^0.3.0",
-    "passport-hash": "^0.4.0",
-    "passport-http-bearer": "^1.0.1",
-    "restify": "^4.0.0"
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/nicolae-teodor-pavel/auth-lib/issues"
   }
 }
